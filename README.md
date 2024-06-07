@@ -1,66 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Tienda de Refacciones para Motocicletas
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este proyecto es una tienda en línea especializada en la venta de refacciones y accesorios para motocicletas. Ofrece una amplia gama de productos de alta calidad para satisfacer las necesidades de los entusiastas de las motos, desde piezas de repuesto hasta equipo de personalización.
 
-## About Laravel
+## Capturas de Pantalla
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A continuación se muestran capturas de pantalla que muestran las diferentes vistas y características de la tienda en línea:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Página de Inicio
+![Página de Inicio](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-51-38.png?raw=true)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+La página de inicio presenta una selección destacada de productos, promociones actuales y opciones de navegación para explorar diferentes categorías de refacciones y accesorios para motocicletas.
 
-## Learning Laravel
+### Login
+![Login](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-52-20.png?raw=true)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Tanto los clientes como los responsables de alimentar la información del sistema podrán entrar por medio de un login para poder realizar ciertas funciones como, agregar a carrito y procesar pago (Cliente), agregar marca, modelo y refacciones (Administrador).
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Productos por modelo
+![Productos](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-52-49.png?raw=true)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Al hacer clic en un modelo, los clientes pueden buscar entre las refacciones disponibles para un modelo en específico.
 
-## Laravel Sponsors
+### Detalles del prodcuto
+![Detalles del producto](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-53-14.png?raw=true)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Los clientes pueden visualizar más detalles respecto a la refacción que están buscando, pueden ver más fotos, descripción, agregar al carrito o procesar la compra de la pieza.
 
-### Premium Partners
+### Proceso de Pago
+![Proceso de Pago](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-53-51.png?raw=true)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+El proceso de pago es seguro y sencillo. Los clientes pueden seleccionar entre diferentes métodos de pago, ingresar la información de envío y pago, y revisar su pedido antes de confirmarlo.
 
-## Contributing
+### Historial de Pedidos
+![Historial de Pedidos](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-54-06.png?raw=true)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Los clientes tienen acceso a un historial detallado de sus pedidos anteriores, lo que les permite realizar un seguimiento de sus compras y reordenar productos fácilmente.
 
-## Code of Conduct
+### Gestión de Cuenta
+![Gestión de Cuenta](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-54-18.png?raw=true)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Los clientes pueden crear una cuenta en la tienda para acceder a funciones adicionales, como guardar direcciones de envío, administrar listas de deseos y recibir actualizaciones sobre nuevas llegadas y ofertas especiales.
 
-## Security Vulnerabilities
+### Panel de administrador
+![Panel de administrador](https://github.com/LuisAGP/todorefa/blob/main/screenshots/Screenshot%20from%202024-06-07%2014-54-59.png?raw=true)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Cuenta con un panel para que el administrador o el encargado de cargar los productos pueda realizar su tarea de una manera fácil, rápida y categorizada por, Marca, Modelo y finalmente refacciones.
 
-## License
+## Características Clave
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- **Amplio Catálogo de Productos:** La tienda ofrece una amplia selección de refacciones y accesorios para motocicletas de diferentes marcas y modelos.
+- **Proceso de Compra Intuitivo:** La interfaz de usuario está diseñada para ser intuitiva y fácil de usar, lo que permite a los clientes navegar y realizar compras sin complicaciones.
+- **Seguridad de Pago:** Se implementan medidas de seguridad robustas para proteger la información personal y financiera de los clientes durante el proceso de pago.
+- **Soporte al Cliente:** Se proporciona soporte al cliente dedicado para ayudar a resolver cualquier problema o duda que puedan tener los clientes durante su experiencia de compra.
+
+Con la tienda de refacciones para motocicletas, los entusiastas de las motos pueden encontrar fácilmente las piezas y accesorios que necesitan para mantener y personalizar sus motocicletas de manera segura y conveniente.
